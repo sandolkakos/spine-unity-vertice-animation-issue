@@ -1,0 +1,5 @@
+sample.png
+size:1952,1952
+filter:Linear,Linear
+whiteCircle
+bounds:1,1,1950,1950
