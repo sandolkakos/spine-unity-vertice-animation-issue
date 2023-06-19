@@ -8,13 +8,13 @@ using UnityEngine.UI;
 
 namespace Sample
 {
-    public class PlayPlayablesSequence : MonoBehaviour
+    public sealed class PlayPlayablesSequence : MonoBehaviour
     {
         [SerializeField]
-        private PlayableDirector playableDirector;
+        private SkeletonGraphic skeletonGraphic;
 
         [SerializeField]
-        private SkeletonGraphic skeletonGraphic;
+        private PlayableDirector playableDirector;
 
         [SerializeField]
         private AssetReferenceT<PlayableAsset>[] playableReferences;
@@ -38,10 +38,16 @@ namespace Sample
         {
             try
             {
+                addressablesButton.interactable = false;
+                nonAddressablesButton.interactable = false;
+
                 foreach (var playableReference in playableReferences)
                 {
                     await Play(playableReference);
                 }
+
+                addressablesButton.interactable = true;
+                nonAddressablesButton.interactable = true;
             }
             catch (Exception e)
             {
@@ -53,10 +59,16 @@ namespace Sample
         {
             try
             {
+                addressablesButton.interactable = false;
+                nonAddressablesButton.interactable = false;
+
                 foreach (var playable in playables)
                 {
                     await Play(playable);
                 }
+
+                addressablesButton.interactable = true;
+                nonAddressablesButton.interactable = true;
             }
             catch (Exception e)
             {
