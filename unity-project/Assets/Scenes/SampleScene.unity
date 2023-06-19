@@ -478,7 +478,7 @@ GameObject:
   - component: {fileID: 659631143}
   - component: {fileID: 659631142}
   m_Layer: 5
-  m_Name: Non-Addressables - Button
+  m_Name: Non-Addressables (Button)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -600,7 +600,7 @@ GameObject:
   - component: {fileID: 730793822}
   - component: {fileID: 730793821}
   m_Layer: 5
-  m_Name: Addressables - Button
+  m_Name: Addressables (Button)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1198,8 +1198,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1b1f2147c4b1642999af358fa64eb64b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playableDirector: {fileID: 1711445572}
   skeletonGraphic: {fileID: 1482989471}
+  playableDirector: {fileID: 1711445572}
   playableReferences:
   - m_AssetGUID: 50bcf5ab144f74329aa65e10e4b71ef7
     m_SubObjectName: 
