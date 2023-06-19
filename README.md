@@ -12,5 +12,5 @@ https://github.com/sandolkakos/spine-unity-vertice-animation-issue/assets/154286
 ## Addressables setup:
 https://github.com/sandolkakos/spine-unity-vertice-animation-issue/assets/1542861/73c84696-7956-4863-b531-a2c69f35e2ed
 
-### Spine Forum to track that issue
-- https://ko.esotericsoftware.com/forum/d/24379-vertice-animation--unity-addressable-issue
+### Spine Forum to track that issue:
+- https://en.esotericsoftware.com/forum/d/24379-vertice-animation--unity-addressable-issue
