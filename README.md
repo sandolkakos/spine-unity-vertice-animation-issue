@@ -6,11 +6,11 @@ To facilitate the demonstration and explanation of the problem, I have recorded 
 
 If you have any questions or require further clarification, please feel free to reach out. Thank you!
 
-# Overview:
-![](help-assets/project-overview-and-explanining-the-issue.mp4)
+## Project overview:
+https://github.com/sandolkakos/spine-unity-vertice-animation-issue/assets/1542861/180ecdb9-51c0-465f-aa24-ff7cbb06d54c
 
-# Addressables setup:
-![](help-assets/addressables-setup-on-the-editor.mp4)
+## Addressables setup:
+https://github.com/sandolkakos/spine-unity-vertice-animation-issue/assets/1542861/73c84696-7956-4863-b531-a2c69f35e2ed
 
 ### Spine Forum to track that issue
 - 
